@@ -1,0 +1,78 @@
+15920395548
+2022/6/16
+测试设备ip:telnet 192.168.0.64
+设备1ip:  telnet 192.168.0.76
+设备2ip:  telnet 192.168.0.68
+
+设备1ip: telnet 192.168.0.44
+设备2ip: telnet 192.168.0.30 
+2022/4/16 add
+首页三电杆同步上移按下:home_up_three 
+首页三电杆同步上移松开:home_stop_three
+首页三电杆同步下移按下:home_down_three
+首页三电杆同步下移松开:home_stop_three
+2022/3/28 add
+一键拆模的按钮:auto_divided
+2022/3/9 add
+自动对齐的按钮:auto_parallel
+2022/2/22 add
+//上顶
+1M0//下
+0M0//结束下
+1M1//上
+0M1//结束上
+//模板
+1M2//模板后
+0M2//结束模板后
+1M3//模板前
+0M3//结束模板前
+M4//使能
+M5 //使能OFF
+1M6 //模板上
+0M6//结束模板上
+1M7 //模板下
+0M7 //结束模板下
+2022/1/24 add
+当物理按键按下，给上位机发送“push_key”。上位机不用给我发送任何指令。
+2022/1/24 add
+模具机器人1 ip
+103.46.128.53
+模具机器人2 ip
+103.46.128.46
+
+手动调平功能：
+enter_levelling	进入调平界面
+exit_levelling          退出调平界面
+
+三个电杆的上下动及停止的命令：
+右电缸：
+up_right        上
+down_right   下
+stop_right     停
+前电缸：
+up_front       上
+down_front   下
+stop_front     停
+左电缸：
+up_left         上
+down_left     下
+stop_left      停
+三个电杆同时上升下降的按钮
+up_three       上
+down_three    下
+stop_three      停
+使能
+levelling_enable
+急停
+levelling_stop
+
+快调：
+fast_levelling
+调平成功飞陵板返回
+levellingsuccess
+精调：
+detail_levelling
+调平成功飞陵板返回
+levellingsuccess
+快调和微调急停按钮要发：
+fast_levelling_stop
